@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your Machine Learning App</title>
+    </head>
+    
+    <body style="text-align: center;">
+        <pre>A basic application that predicts the price of a house based on a few given features.</pre>
+        <form name="form", method="POST" >
+            <br>
+            Avg. Area Income: <input type="text" name="areaIncome", placeholder="Enter the average income in the area" />
+            <br><br>
+            Avg. Area House Age	: <input type="text" name="areaHouseAge", placeholder="Enter the average number of years the house has been built" />
+            <br><br>
+            Avg. Area Number of Rooms: <input type="text" name="areaNumberOfRooms", placeholder="Enter the average number of rooms in the area" />
+            <br><br>
+            Avg. Area Number of Bedrooms: <input type="text" name="areaNumberOfBedrooms", placeholder="Enter the average number of bedrooms in the area" />
+            <br><br>
+            Area Population: <input type="text" name="areaPopulation", placeholder="Enter the population in the area" />
+            <br>
+            <button value="Submit">Predict Price</button>
+        </form>
+        <p style="text-align: center;">Here we have it {{ output }}</p>
+    </body>
+</html>
